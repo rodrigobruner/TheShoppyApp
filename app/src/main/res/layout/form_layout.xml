@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/formLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+    <!--Name-->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_name" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+    <!-- Provinces -->
+    <TextView
+        android:id="@+id/textViewProvince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_provinces" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextViewProvince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <!-- kind of computer -->
+    <RadioGroup
+        android:id="@+id/radioGroupKindOfComputer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_type" />
+        <RadioButton
+            android:id="@+id/radioButtonDesktop"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_type_desktop" />
+        <RadioButton
+            android:id="@+id/radioButtonLaptop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_type_laptop" />
+    </RadioGroup>
+
+    <!-- Brands -->
+    <TextView
+        android:id="@+id/textViewBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_brands" />
+
+    <Spinner
+        android:id="@+id/spinnerBrands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Aditional -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_additional" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_additional_ssd" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPrinter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_additional_printer" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupLaptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textViewLaptopExtra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_extra_laptop" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLaptopCooling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_extra_laptop_cooling" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLaptopHub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_extra_laptop_hub" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLaptopStand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_extra_laptop_stand" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupDesktop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewDesktopExtra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_extra_desktop" />
+
+        <RadioButton
+            android:id="@+id/radioDesktopNone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_extra_desktop_none" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDesktopWebcan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_extra_desktop_webcam" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDesktopEhd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_extra_desktop_ehd" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field_add_to_cart"
+        android:onClick="onAddToCartButtonClick"/>
+
+
+</LinearLayout>

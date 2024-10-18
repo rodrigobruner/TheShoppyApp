@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TheShoppyApp</string>
+    <string name="store_name">The Shoppy</string>
+
+    <!--Form Fields -->
+    <string name="field_name">Enter your name</string>
+    <string name="field_provinces">Enter your province</string>
+    <string name="field_type">What kind of computer are you looking for</string>
+    <string name="field_type_laptop">Laptop</string>
+    <string name="field_type_desktop">Desktop</string>
+    <string name="field_brands">Select one of the brands</string>
+    <string name="field_additional">Additional</string>
+    <string name="field_additional_ssd">SSD</string>
+    <string name="field_additional_printer">Printer</string>
+    <string name="field_extra_laptop">Select peripherals for Laptop</string>
+    <string name="field_extra_laptop_cooling">Laptop Cooling Mat</string>
+    <string name="field_extra_laptop_hub">USB C-HUB</string>
+    <string name="field_extra_laptop_stand"> Laptop Stand</string>
+    <string name="field_extra_desktop">Select peripherals for Desktop</string>
+    <string name="field_extra_desktop_none">None</string>
+    <string name="field_extra_desktop_webcam">Webcam</string>
+    <string name="field_extra_desktop_ehd">External Hard Drive</string>
+    <string name="field_add_to_cart">Add to cart</string>
+
+    <string name="cart_title">Your shopping cart</string>
+    <string name="cart_button_back">Return to previous screen</string>
+
+    <string name="error_name">Please enter your name</string>
+    <string name="error_province">Enter a valid province or territory</string>
+
+</resources>
